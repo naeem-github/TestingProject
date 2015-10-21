@@ -19,4 +19,9 @@ public class WebSiteTestStep {
 		System.out.println("verification logic goes here");
 	}
 
+	@QAFTestStep(description = "verify customer is on home page2")
+	public void verifyHomePage2() {
+		System.out.println("verification logic goes here");
+	}
+
 }
