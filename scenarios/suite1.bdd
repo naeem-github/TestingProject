@@ -3,6 +3,14 @@
 SCENARIO: SampleTest
 META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
 	
-	#TODO: call test steps
+	Given customer open google home page
+	
+END
+
+SCENARIO: SampleTest new
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given customer open google home page
+	And verify customer is on home page
 	
 END
