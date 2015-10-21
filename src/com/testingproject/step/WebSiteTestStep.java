@@ -29,4 +29,9 @@ public class WebSiteTestStep {
 		System.out.println("verification logic goes here");
 	}
 
+	@QAFTestStep(description = "Committed AppHomePage for Sprint5_QA-001")
+	public void test() {
+
+	}
+
 }
