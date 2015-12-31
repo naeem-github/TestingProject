@@ -59,6 +59,7 @@
 		<dependency org="com.jayway.jsonpath" name="json-path-parent"
 			rev="0.8.1" />
 		<dependency org="org.json" name="json" rev="20131018"/>
+		<dependency org="org.jasypt" name="jasypt" rev="1.9.2"/>
 
 	</dependencies>
 </ivy-module>
